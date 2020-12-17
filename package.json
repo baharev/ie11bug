@@ -1,0 +1,41 @@
+{
+  "name": "ie11bug",
+  "homepage": "https://www.baharev.info/sandbox/ie11bug/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "16.14.0",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "16.14.0",
+    "react-scripts": "4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "> 0.15%",
+      "last 2 versions",
+      "Firefox ESR",
+      "ie 11",
+      "ie_mob 11",
+      "ios_saf >= 9",
+      "not op_mini all",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
